@@ -4,7 +4,76 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Purbasha Roy | Researcher</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #2e2e2e;
+      line-height: 1.8;
+      padding-bottom: 5rem;
+    }
+    header {
+      background: linear-gradient(to right, #003366, #005599);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.25rem;
+      font-weight: 400;
+    }
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+    h2 {
+      color: #003366;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #00336630;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #005599;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #003366;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .sub-section {
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,14 +81,14 @@
     <p>Researcher | Edge Computing | Video Analytics</p>
   </header>
 
-  <section class="contact">
+  <section>
     <h2>Contact Information</h2>
     <ul>
       <li><strong>Phone:</strong> +91 9874787642</li>
       <li><strong>Email:</strong> <a href="mailto:purbasha2671999@gmail.com">purbasha2671999@gmail.com</a></li>
       <li><strong>Address:</strong> Harmony 1/4D, Greenwood Sonata, Newtown, Kolkata</li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/purbasha-roy-a8a38a193">LinkedIn Profile</a></li>
-      <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=Wtfv2CoAAAAJ">View Publications</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/purbasha-roy-a8a38a193">linkedin.com/in/purbasha-roy-a8a38a193</a></li>
+      <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=Wtfv2CoAAAAJ">View Profile</a></li>
     </ul>
   </section>
 
@@ -28,88 +97,106 @@
     <ul>
       <li>Edge Computing</li>
       <li>Video Analytics</li>
+      <li>Distributed Systems</li>
       <li>Machine Learning</li>
     </ul>
   </section>
 
   <section>
     <h2>Education</h2>
-    <p><strong>B.Tech in Electronics and Communications</strong><br> RCCIIT, Aug 2018 – Jun 2022<br> GPA: 8.62/10</p>
-    <p><strong>Research Courses (IIIT-Delhi)</strong><br> Aug 2023 – Present<br> ACM Winter School + CS Courses</p>
+    <div class="sub-section">
+      <strong>Bachelor of Technology in Electronics and Communications Engineering</strong><br>
+      RCC Institute of Information Technology (RCCIIT), MAKAUT<br>
+      Aug 2018 - June 2022 | CGPA: 8.62/10
+    </div>
+    <div class="sub-section">
+      <strong>Additional CS Courses as Research Associate</strong><br>
+      IIIT-Delhi | Aug 2023 - Present<br>
+      ACM Winter School on Full-Stack Networking, OOP, and Linear Optimization
+    </div>
   </section>
 
   <section>
     <h2>Work Experience</h2>
-    <h3>Research Associate, IIIT-Delhi (Sept 2023 – Present)</h3>
-    <ul>
-      <li>Edge-based Video Analytics under Prof. Arani Bhattacharya</li>
-      <li>Scalability algorithms and performance benchmarking</li>
-    </ul>
-
-    <h3>Full Stack Developer, Cognizant (Sept 2022 – Sept 2023)</h3>
-    <ul>
-      <li>Built dynamic sites using React, MongoDB, Node.js, Angular</li>
-    </ul>
+    <div class="sub-section">
+      <strong>Research Associate</strong> | IIIT-Delhi | Sept 2023 – Present<br>
+      Supervisor: Prof. Arani Bhattacharya<br>
+      Working on scalability and energy-efficient algorithms for video analytics pipelines.
+    </div>
+    <div class="sub-section">
+      <strong>Full Stack Developer</strong> | Cognizant | Sept 2022 – Sept 2023<br>
+      Project Manager: Palani Gyathri<br>
+      Developed web applications using React, MongoDB, Node.js, Angular.
+    </div>
   </section>
 
   <section>
     <h2>Research Presentations</h2>
     <ul>
-      <li><strong>TileClipper</strong> – ACM Winter School, IMC 2023</li>
-      <li><strong>Scheduling Safety-Critical Tasks</strong> – COMSNETS 2024</li>
-      <li><strong>Measurement Study of Traffic Surveillance</strong> – ACM COMPASS 2024</li>
+      <li><strong>TileClipper:</strong> ACM Winter School, Dec 2023 & IMC 2023</li>
+      <li><strong>Safety-Critical Task Scheduling:</strong> COMSNETS 2024</li>
+      <li><strong>Measurement Study of Traffic Surveillance:</strong> ACM COMPASS 2024</li>
     </ul>
   </section>
 
   <section>
     <h2>Internships</h2>
-    <p><strong>University of Victoria</strong> – Research Intern under Prof. Jaya Champati (May–July 2024)<br>Domain: Hierarchical Inference</p>
-    <p><strong>Cognizant</strong> – Full Stack Intern (Feb–July 2022)</p>
+    <div class="sub-section">
+      <strong>Research Intern</strong> | University of Victoria, Canada | May – July 2024<br>
+      Supervisor: Prof. Jaya Champati | Focus: Hierarchical Inference
+    </div>
+    <div class="sub-section">
+      <strong>Full Stack Intern</strong> | Cognizant | Feb – July 2022<br>
+      Created a smart COVID clinic system. Ranked 7 out of 306 interns.
+    </div>
   </section>
 
   <section>
     <h2>Projects</h2>
     <ul>
-      <li><strong>Video Pruning for Surveillance</strong> – Doctoral Consortium, ACM COMPASS 2024</li>
-      <li><strong>TileClipper</strong> – USENIX ATC 2024</li>
-      <li><strong>Digital Temperature Sensor</strong> – Arduino + LCD, RCCIIT</li>
+      <li><strong>Video Pruning Techniques:</strong> Optimizing bandwidth & energy using StrongSort-YOLO. (Doctoral Consortium, ACM COMPASS 2024)</li>
+      <li><strong>TileClipper:</strong> Real-time ROI filtering system on edge devices. (USENIX ATC 2024)</li>
+      <li><strong>Digital Temperature Sensor:</strong> Arduino-based sensor with LCD (RCCIIT Final Project)</li>
     </ul>
   </section>
 
   <section>
     <h2>Certifications</h2>
     <ul>
-      <li>ACM Full-Stack Networking School (2023)</li>
+      <li>ACM Winter School on Full-Stack Networking (Dec 2023)</li>
       <li>Microsoft Azure Fundamentals (AZ-900)</li>
-      <li>FreeCodeCamp – Responsive Web Design</li>
-      <li>EFSET – 83/100 (C2 Proficient)</li>
-      <li>German A1 – Goethe Zertifikat</li>
+      <li>FreeCodeCamp - Responsive Web Design</li>
+      <li>EFSET - 83/100, C2 Proficient</li>
+      <li>German Language Certificate - Goethe A1</li>
     </ul>
   </section>
 
   <section>
     <h2>Skills</h2>
-    <p><strong>Languages:</strong> C, C++, Python, JavaScript</p>
-    <p><strong>Frameworks:</strong> React, Node.js, MongoDB</p>
-    <p><strong>Tools:</strong> Git, FFmpeg, Linux, Kvazaar</p>
-    <p><strong>Hardware:</strong> Raspberry Pi, Arduino</p>
-  </section>
-
-  <section>
-    <h2>Awards & Fellowships</h2>
     <ul>
-      <li>ACM SIGCOMM 2024 Travel Grant</li>
-      <li>Reviewer Roles at SIGCOMM, CONEXT, IMC</li>
-      <li>Research stipend from Cisco</li>
+      <li><strong>Languages:</strong> C, C++, Python, JavaScript</li>
+      <li><strong>Web Technologies:</strong> React, Node.js, MongoDB, HTML, CSS</li>
+      <li><strong>Libraries/Tools:</strong> Git, Linux, FFmpeg, Kvazaar, NumPy, Pandas</li>
+      <li><strong>IoT:</strong> Raspberry Pi, Arduino</li>
     </ul>
   </section>
 
   <section>
-    <h2>Extracurricular</h2>
+    <h2>Awards and Fellowships</h2>
     <ul>
-      <li>Sports: Basketball, Handball, Relay (2019)</li>
-      <li>Loreto Village Teaching Program (2010–2016)</li>
-      <li>Youngest MI4 Quiz Rep (2012)</li>
+      <li>Travel Grant – ACM SIGCOMM 2024 (Sydney)</li>
+      <li>Artifact Evaluation Committee – SIGCOMM 2024, CONEXT 2025</li>
+      <li>Shadow TPC – IMC 2025</li>
+      <li>Cisco University Research Grant Stipend – 1+ year</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Extracurricular Activities</h2>
+    <ul>
+      <li>Basketball, Handball, Relay – Intra/Inter College Events</li>
+      <li>Loreto Village Program – Teaching underprivileged children (2010–2016)</li>
+      <li>MI4 Quiz (Mumbai) – Youngest representative from Loreto (2012)</li>
     </ul>
   </section>
 
@@ -118,3 +205,4 @@
   </footer>
 </body>
 </html>
+
